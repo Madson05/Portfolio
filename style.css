@@ -26,7 +26,7 @@ nav h2{
   letter-spacing: 1px;
 }
 
-nav span {
+span {
   color: #0014c5
 }
 
@@ -124,4 +124,71 @@ h3{
 
 .container-btn form input:last-child:hover{
   background-color: #00091f;
+}
+
+
+/* About */
+
+.sobre{
+  background-color: #020714;
+  width: 100%;
+  padding: 100px;
+}
+
+.sobre img{
+  width: 400px;
+  height: auto;
+
+}
+
+.text-sobre{
+  width: 550px;
+}
+
+.main-sobre{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.text-sobre h2{
+  color: #fff;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.text-sobre h5{
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.text-sobre p{
+  color: rgb(149, 150, 212);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.button{
+  background-color: #0014c5;
+  color: #fff;
+  text-transform: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 20px;
+  border-radius: 30px;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: transparent;
+  border: 2px solid #0014c5;
 }
