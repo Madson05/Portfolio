@@ -62,29 +62,44 @@ nav ul li a:hover{
   transform: scale(1.2);
 }
 
-main{
-  position: absolute;
+.main{
+  position: relative;
   top: 50%;
   left: 8%;
   transform: translateY(-50);
+  margin-top: 150px;
 }
 
-main h4{
+.main h4{
   color: #fcfcfc;
   letter-spacing: 2px;
   font-size: 20px;
 }
 
-main h1{
+.main h1{
   color: #fff;
   margin: 20px 0px 20px;
   font-size: 75px;
 }
 
 
-main h1 span{
+.main h1 span{
   color: #0014c5;
 }
+
+.main-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-section img{
+  margin-right: 20px;
+  width: 480px;
+  height: auto;
+  
+}
+
 
 h3{
   color: #fff;
