@@ -15,9 +15,9 @@
       <ul class="cabecalho-link">
         <li><a href="#">Inicio</a></li>
         <li><a href="#sobre">Sobre Mim</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Habilidades</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidadades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
       <a href="#" class="btn">Subscribe</a>
     </nav>
@@ -42,7 +42,7 @@
     
   </div>
 
-  <section class="sobre">
+  <section id = "sobre" class="sobre">
     <div class="main-sobre">
       <img src="images/sobre.png" alt="">
       <div class="text-sobre">
@@ -58,13 +58,16 @@
     </div>
   </section>
 
-  <div class="container-projects">
+  
+
+  <div id = "projetos" class="container-projects">
     <div class="title"><h2>Meus Projetos</h2></div>
     <div class="box-cards">
       <div class = "card">
         <i class="fa-solid fa-question"></i>
         <h5>Quizzmica</h5>
-        <p>Jogo feito com HTML, CSS e JavaScript para aprendizado de quimica organica através de um quiz</p>
+        <p>O Quizmica é um jogo de aprendizado de química orgânica, feito em HTML, CSS e JavaScript, com perguntas desafiadoras e feedback imediato. Oferece uma maneira divertida e eficaz de aprender química orgânica.
+        </p>
         <button class ="btn">Acessar projeto</button>
       </div>
 
@@ -72,22 +75,53 @@
         <div class = "card">
           <i class="fa-solid fa-burger"></i>
           <h5>Delivery-API</h5>
-          <p>APi feita com node e express que faz o gerenciamento de pedidos de um app de delivery</p>
+          <p>A Delivery-API é uma API simples feita com Node.js e Express para gerenciamento de pedidos de entrega. Oferece recursos básicos de CRUD, incluindo leitura e edição de dados. É uma solução fácil de usar para gerenciar seus pedidos.</p>
           <button class ="btn">Acessar projeto</button>
         </div>
 
       <div class = "card">
         <i class="fa-sharp fa-solid fa-blog"></i>
         <h5>MiniBlog</h5>
-        <p>Blog feito com React. Possui autentixação, armazenamento dos posts em banco de dados e CRUD completo para todos os posts</p>
+        <p>O MiniBlog é um blog criado com React no frontend e Firebase no backend. Oferece autenticação, banco de dados (firebase) e CRUD completo para os posts. É fácil de usar e ideal para criar e compartilhar seus posts</p>
         <button class ="btn">Acessar projeto</button>
       </div>
     </div>
 
   </div>
 
-  <div class = "contate-me">
-    <p>Contate-me para que possamos entrar em contato e verificar meus serviços</p>
+  <section id="habilidades">
+    <h3>Habilidades</h3>
+
+    <div class = "box-habilidades">
+      <div class="habilidade">
+        <p>HTML</p>
+      </div>
+
+      <div class="habilidade">
+        <p>CSS</p>
+      </div>
+
+      <div class="habilidade">
+        <p>JavaScript</p>
+      </div>
+      
+
+      <div class="habilidade">
+        <p>ReactJs</p>
+      </div>
+
+      <div class="habilidade">
+        <p>NodeJs</p>
+      </div>
+
+      <div class="habilidade">
+        <p>Express</p>
+      </div>
+    </div>
+  </section>
+
+  <div id = "contato" class = "contate-me">
+    <p>Contate-me para que possamos entrar em contato.</p>
     <button class="btn">Enviar mensagem</button>
   </div>
 

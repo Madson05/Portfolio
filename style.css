@@ -19,6 +19,7 @@ nav{
   padding: 45px;
   padding-left: 8%;
   padding-right: 8%;
+  
 }
 
 nav h2{
@@ -208,6 +209,36 @@ h3{
 .button:hover{
   background-color: transparent;
   border: 2px solid #0014c5;
+}
+
+#habilidades{
+  
+  background-color: #091127c4;
+  
+}
+
+#habilidades h3{
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.box-habilidades{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0px 60px;
+  flex-wrap: wrap;
+}
+
+.habilidade{
+  background-color: #0014c5;
+  padding: 15px 30px;
+  border-radius: 25px;
+  margin: 35px;
+  color: #fff;
 }
 
 .container-projects{
