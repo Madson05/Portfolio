@@ -124,7 +124,7 @@ h3{
   outline: none;
 }
 
-.container-btn form input:last-child{
+.container-btn form button{
   position:absolute;
   display: inline-block;
   outline: none;
@@ -140,7 +140,7 @@ h3{
   transition: transform .3s;
 }
 
-.container-btn form input:last-child:hover{
+.container-btn form button:hover{
   background-color: #00091f;
 }
 
