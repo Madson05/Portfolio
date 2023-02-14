@@ -29,10 +29,21 @@
         <h1>Madson <span>Silva</span></h1>
         <h3>Eu sou um desenvolvedor WEB</h3>
         <div class="container-btn">
-          <form>
-            <input type="email" id="email" placeholder="Envie seu Email">
+          <form method="POST"
+          action="https://formsubmit.co/madsonsilva200522@gmail.com">
+            <input type="email" name="email" id="email" placeholder="Envie seu Email">
             <input type="submit" value="Enviar">
+
+            <input type="hidden" name="_next" value="https://madson.netlify.app/src/form_success/success.html" />
+        <input
+          type="hidden"
+          name="_subject"
+          value="FORMULÁRIO CONTATO - PORTFÓLIO (Email)"
+        />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
           </form>
+
         </div>
         
       </div>
