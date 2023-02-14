@@ -1,0 +1,108 @@
+body{
+  background-color: #00091f;
+  display: flex;
+  margin: 30px;
+}
+
+h2{
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  
+}
+
+img{
+  width: 450px;
+  height: auto;
+}
+
+
+.div-form{
+  margin-left: 300px;
+  margin-top: 30px;
+}
+span{
+  color: #0014c5
+}
+
+form{
+  border: 1px solid #0014c5;
+  color: #fff;
+  margin: 0 auto;
+  width: 95%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+p{
+  font-size: 35px;
+}
+
+.box-campos{
+  border: solid 1px #fff;
+
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.title{
+  color: #fff;
+  text-align: center;
+  
+}
+
+.campo-form{
+  margin: 15px;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #5a5af5;
+}
+
+button[type="submit"] {
+  background-color: #0014c5;
+  color: #fff;
+  padding: 0.5rem 10.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+  background-color: transparent;
+  border: 2px solid #0014c5;
+}
