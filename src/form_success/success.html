@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Confirmação de Formulário</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #00091f;
+        color: #fff;
+      }
+      h1 {
+        text-align: center;
+        color: #0014c5; /* alterando a cor do título para destacar */
+        text-shadow: 2px 2px 2px #000; /* adicionando sombra ao texto */
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        border: 2px solid #0014c5; /* alterando a cor da borda */
+        border-radius: 10px;
+        box-shadow: 0 0 10px #000; /* adicionando sombra à caixa */
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #0014c5;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #2633a7;
+      }
+      .image-container {
+        max-width: 400px;
+        margin: 20px auto;
+      }
+      .image-container img {
+        display: block;
+        width: 100%;
+      }
+      .details {
+        background-color: #0014c5; /* adicionando a cor de destaque */
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        margin: 20px auto;
+        text-align: center;
+        box-shadow: 0 0 10px #000;
+      }
+      .details h2 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .details p {
+        margin: 10px 0 0;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Obrigado!</h1>
+      <p>Seu formulário foi enviado com sucesso.</p>
+      <div class="details">
+        <h2>Seu contato é muito importante!</h2>
+        <p>Entrarei em contato assim que possível.</p>
+      </div>
+      <div class="image-container">
+        <img src="/images/success.png" alt="">
+      </div>
+      <button type="button" onclick="window.location.href='index.html'">Voltar</button>
+    </div>
+  </body>
+</html>
