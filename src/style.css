@@ -28,7 +28,7 @@ aside {
 }
 
 #menu-bar{
-  background-color: #191919;
+  background-color: #07082b;
   height: 100vh;
   width: 0px;
   transition: 0.3s all;
@@ -38,6 +38,10 @@ aside {
 #menu-bar ul li {
   list-style: none;
   padding: 15px;
+}
+
+#menu-bar ul li:first-child{
+  margin-top: 30px;
 }
 
 #menu-bar ul li a {
@@ -55,7 +59,7 @@ aside {
 }
 
 .c-icon {
-  margin-top: 100%;
+  margin-top: 10%;
   display: flex;
   text-align: center;
   gap: 15px;
@@ -437,7 +441,7 @@ footer p {
   height: 100%;
   background-image: url("../images/home.png");
   background-size: cover;
-  opacity: 0.2; /* transparência de 80% */
+  opacity: 0.2;
   
   }
 
