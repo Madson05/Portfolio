@@ -378,7 +378,7 @@ footer {
 footer h6 {
   margin-top: 45px;
   font-size: 35px;
-  color: #fff;
+  color: #0014c5;
 }
 
 footer p {
@@ -479,7 +479,7 @@ footer p {
     display: none;
   }
   .main {
-    margin: 0px;
+    margin-top: 100px;
     
   }
   .main h3 {
@@ -515,10 +515,29 @@ footer p {
     font-size: 50px;
   }
 
+  .text-sobre{
+    width: 350px;
+  }
+
+  .text-sobre h5{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+
+
+  .card{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  
+
   .text-sobre p {
     font-size: 15px;
     width: 350px;
-    margin-left: 95px;
+    margin-bottom: 50px;
+    
   }
 
   .container-projects h2 {
@@ -531,6 +550,7 @@ footer p {
   }
   .habilidade{
     margin: 3px;
+    padding: 15px 25px;
   }
 
   .contate-me p {
