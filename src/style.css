@@ -7,10 +7,67 @@
   font-family: "Josefins Sans", sans-serif;
 }
 
+body{
+  width: 100%;
+}
 .background{
   background-color: #00091f;
   height: 100vh;
+  width: 100%;
 }
+
+aside{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  overflow: hidden;
+  
+}
+
+.icon-menu .menu{
+  font-size: 30px;
+  color: #fff;
+  margin-top: 15px;
+  margin-right: 15px;
+  display: none;
+}
+
+#menu-bar{
+  background-color: #191919;
+  height: 100vh;
+  width: 0px;
+  transition: 0.3s all;
+  display: none;
+}
+
+#menu-bar ul li{ 
+  padding: 15px;
+}
+
+#menu-bar ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  width: 100%;
+}
+
+#menu-bar ul li a:hover{
+  border: solid 1px #101010;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #858585;
+} 
+
+.c-icon{
+  margin-top: 100%;
+  display: flex;
+  text-align: center;
+  gap: 15px;
+  overflow: hidden;
+
+}
+
 
 nav{
   display: flex;
@@ -383,4 +440,84 @@ footer p{
   color: #0014c5;
   margin-top: 35px;
   font-size: 14px;
+}
+
+@media screen and (max-width: 450px){
+  .icon-menu .menu{
+    display: block;
+  }
+
+  #menu-bar{
+    height: 100vh;
+    z-index: 1;
+  }
+
+  .c-icon{
+    align-items: center;
+    justify-content: center;
+    background-color: #0014c5;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 5px;
+    border-radius: 30px;
+    width: 150px;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+  nav ul li,
+  nav a{
+    display: none;
+  }
+  .main{
+    margin: 0px;
+  }
+  .main h3{
+    font-size: 18px;
+  }
+  .main h1{
+    font-size: 35px;
+    /* margin: 2px; */
+  
+  }
+
+  .container-btn form{
+    width: 250px;
+    max-width: 100%;
+    margin-left: -2px;
+
+  }
+
+  .sobre{
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-sobre{
+    flex-direction: column;
+    
+  }
+
+  .main-sobre img{
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+    /* margin-left: -80px; */
+  }
+
+  .text-sobre h2{
+    /* margin-left: -180px; */
+    font-size: 50px;
+  }
+
+  
+  .text-sobre p{
+    font-size: 15px;
+    width: 350px;
+    margin-left: 95px;
+  }
+
+  
 }
