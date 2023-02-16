@@ -58,36 +58,34 @@ button:hover {
   font-size: 18px;
 }
 
-
-@media screen and (max-width:1000px) {
-
-  .container{
+@media screen and (max-width: 1000px) {
+  .container {
     max-width: none;
-    height: 96vh;
+    height: 93vh;
     border: 5px solid #0014c5;
   }
 
-  h1{
+  h1 {
     font-size: 5rem;
   }
-  p{
+  p {
     font-size: 2rem;
   }
-  .image-container{
+  .image-container {
     max-width: none;
     width: 600px;
     height: auto;
   }
 
-  .details{
+  .details {
     margin-top: 50px;
   }
 
-  .details h2{
+  .details h2 {
     font-size: 36px;
   }
 
-  button{
+  button {
     justify-content: center;
     width: 90%;
     padding: 20px 30px;
@@ -96,6 +94,5 @@ button:hover {
     position: fixed;
     bottom: 3rem;
     left: 2.5rem;
-
   }
 }
