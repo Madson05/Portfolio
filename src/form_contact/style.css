@@ -1,43 +1,49 @@
-body{
+body {
   background-color: #00091f;
-  display: flex;
+  font-family: sans-serif;
   margin: 30px;
 }
 
-h2{
+main {
+  display: flex;
+}
+
+h2 {
   color: #fff;
   font-size: 35px;
   cursor: pointer;
   letter-spacing: 1px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-h1{
+h1 {
   color: #fff;
   font-size: 35px;
   cursor: pointer;
   letter-spacing: 1px;
-  
 }
 
-img{
+.image-mobile{
+  display: none;
+}
+
+.image-pc {
   width: 450px;
   height: auto;
 }
 
-
-.div-form{
+.div-form {
   margin-left: 300px;
   margin-top: 30px;
 }
-span{
-  color: #0014c5
+span {
+  color: #0014c5;
 }
 
-form{
+form {
   border: 1px solid #0014c5;
   color: #fff;
   margin: 0 auto;
@@ -46,24 +52,23 @@ form{
   border-radius: 20px;
 }
 
-p{
+p {
   font-size: 35px;
 }
 
-.box-campos{
+.box-campos {
   border: solid 1px #fff;
 
   border-radius: 20px;
   padding: 15px;
 }
 
-.title{
+.title {
   color: #fff;
   text-align: center;
-  
 }
 
-.campo-form{
+.campo-form {
   margin: 15px;
 }
 
@@ -105,4 +110,93 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: transparent;
   border: 2px solid #0014c5;
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-campos{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  .div-form {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    border: 0px;
+  }
+
+  .image-pc {
+    display: none;
+  }
+
+  .image-mobile {
+    display: block;
+    margin-bottom: 3rem;
+    width: 140px;
+    height: auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  form label {
+    display: none;
+  }
+
+  .campo-form{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  
+  body {
+    margin: 20px;
+  }
+
+  h2 {
+    margin: 0px;
+    font-size: 22px;
+  }
+
+  .title{
+    font-size: 30px;
+    color: #0014c5;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 90%;
+    padding: 10px;
+    border: 0;
+    
+  }
+
+  button[type="submit"] {
+    padding: 1rem 7rem;
+    border-radius: 40px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 0.8rem;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    width: 90%;
+  }
 }
