@@ -197,10 +197,10 @@ button[type="submit"]:hover {
     border-radius: 30px;
     border: 1px solid #ccc;
     font-size: 1.2rem;
-    width: 93%;
+    width: 98%;
   }
 
   textarea{
-    width: 95%;
+    width: 100%;
   }
 }
